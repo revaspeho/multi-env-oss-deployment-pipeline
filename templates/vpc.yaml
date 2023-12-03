@@ -101,7 +101,7 @@ Resources:
       PrivateDnsEnabled: true
       SecurityGroupIds:
         - !Ref EndpointSG
-      ServiceName: com.amazonaws.us-east-1.ec2messages
+      ServiceName: com.amazonaws.us-west-2.ec2messages
       SubnetIds:
         - !Ref PrivateSubnet1
         - !Ref PrivateSubnet2
@@ -114,7 +114,7 @@ Resources:
       PrivateDnsEnabled: true
       SecurityGroupIds:
         - !Ref EndpointSG
-      ServiceName: com.amazonaws.us-east-1.ec2
+      ServiceName: com.amazonaws.us-west-2.ec2
       SubnetIds:
         - !Ref PrivateSubnet1
         - !Ref PrivateSubnet2
@@ -127,7 +127,7 @@ Resources:
       PrivateDnsEnabled: true
       SecurityGroupIds:
         - !Ref EndpointSG
-      ServiceName: com.amazonaws.us-east-1.ssm
+      ServiceName: com.amazonaws.us-west-2.ssm
       SubnetIds:
         - !Ref PrivateSubnet1
         - !Ref PrivateSubnet2
@@ -140,7 +140,7 @@ Resources:
       PrivateDnsEnabled: true
       SecurityGroupIds:
         - !Ref EndpointSG
-      ServiceName: com.amazonaws.us-east-1.ssmmessages
+      ServiceName: com.amazonaws.us-west-2.ssmmessages
       SubnetIds:
         - !Ref PrivateSubnet1
         - !Ref PrivateSubnet2
@@ -153,7 +153,7 @@ Resources:
       PrivateDnsEnabled: true
       SecurityGroupIds:
         - !Ref EndpointSG
-      ServiceName: com.amazonaws.us-east-1.logs
+      ServiceName: com.amazonaws.us-west-2.logs
       SubnetIds:
         - !Ref PrivateSubnet1
         - !Ref PrivateSubnet2
@@ -166,7 +166,7 @@ Resources:
       RouteTableIds:
         - !Ref PrivateRouteTable1
         - !Ref PrivateRouteTable2
-      ServiceName: com.amazonaws.us-east-1.s3
+      ServiceName: com.amazonaws.us-west-2.s3
       VpcId: !Ref VPC
       VpcEndpointType: Gateway
 
