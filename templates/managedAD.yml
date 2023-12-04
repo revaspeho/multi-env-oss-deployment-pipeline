@@ -62,7 +62,7 @@ Resources:
       Edition: !Ref Edition
       EnableSso: !Ref EnableSingleSignOn
       Name: !Ref DomainName
-      Password: "{{resolve:ssm-secure:AdminADPassword:3}}"
+      Password: "{{resolve:ssm-secure:AdminADPassword:1}}"
       ShortName: !Ref MicrosoftADShortName
       VpcSettings:
         SubnetIds:
